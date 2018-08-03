@@ -1,11 +1,13 @@
-class Dog():
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+def make_car(brand, model, **additional_info):
+    car_info = {}
+    car_info['brand'] = brand
+    car_info['model'] = model
+    for key, value in additional_info.items():
+        car_info[key] = value
+    return car_info
 
-    def sit(self):
-        print(self.name.title() + "is now sitting")
 
-    def roll_over(self):
+my_car = make_car('ford', 'seden', location = 'Sydney', color = 'blue')
+print(my_car)
 
-    print("self.name.title" + " rolled over!")
+

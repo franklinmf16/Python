@@ -19,7 +19,7 @@ class Privilege():
     def show_privileges(self):
         print("privileges are", end = ' ')
         for privilege in self.privileges:
-            print(privilege, end = ' ')    
+            print(privilege, end = ' ')
 
 class Admin(User):
     def __init__(self, first_name, last_name, *other_info):

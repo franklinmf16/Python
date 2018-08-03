@@ -1,0 +1,3 @@
+In Python you can develop web applications
+In Python you can analyse data
+In Python you can realize AI
